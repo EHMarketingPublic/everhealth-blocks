@@ -1,0 +1,8 @@
+// Shared variables/mixins available to every block's SCSS via the
+// build's --load-path (see package.json "build"/"watch" scripts).
+// Import in a block's .scss with:  @use "variables" as v;
+
+$eb-color-primary: #0b5fff;
+$eb-color-text:    #1a1a1a;
+$eb-spacing-sm:    0.5rem;
+$eb-spacing-md:    1rem;

@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "everhealth-blocks/example-block",
+	"title": "EverHealth: Example Block",
+	"description": "Starter block demonstrating the everhealth-blocks folder convention — copy this folder to add a new block.",
+	"category": "everhealth-blocks",
+	"icon": "layout",
+	"keywords": [ "everhealth", "example" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"anchor": true,
+		"mode": true,
+		"jsx": true
+	},
+	"style": "file:../../dist/blocks/example-block/style.css",
+	"editorStyle": "file:../../dist/blocks/example-block/editor.css"
+}

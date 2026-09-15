@@ -1,0 +1,18 @@
+@use "variables" as v;
+
+.eb-example-block {
+	display: flex;
+	flex-direction: column;
+	gap: v.$eb-spacing-md;
+	color: v.$eb-color-text;
+
+	&__icon svg {
+		width: 2rem;
+		height: 2rem;
+		fill: v.$eb-color-primary;
+	}
+
+	&__heading {
+		margin: 0;
+	}
+}

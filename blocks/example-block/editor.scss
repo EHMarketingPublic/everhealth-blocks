@@ -1,0 +1,6 @@
+@use "variables" as v;
+
+.eb-example-block {
+	padding: v.$eb-spacing-md;
+	border: 1px dashed #ccc;
+}
