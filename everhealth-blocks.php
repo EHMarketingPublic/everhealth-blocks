@@ -36,7 +36,7 @@ define( 'EB_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'EB_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'EB_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 define( 'EB_BLOCKS_DIR', EB_PLUGIN_DIR . 'blocks' );
-define( 'EB_GITHUB_REPO', 'YOUR-ORG/everhealth-blocks' ); // e.g. 'everhealth/everhealth-blocks'
+define( 'EB_GITHUB_REPO', 'https://github.com/EHMarketingPublic/everhealth-blocks' ); // e.g. 'everhealth/everhealth-blocks'
 define( 'EB_GITHUB_ACCESS_TOKEN', '' ); // Optional: set a fine-grained PAT if the repo is private, otherwise leave blank.
 
 /**
